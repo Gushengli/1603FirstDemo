@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bbsListL">
+        <item>全部论坛</item>
+        <item>题材作品区</item>
+        <item>全部摄影区</item>
+        <item>二手交易区</item>
+        <item>全国分站区</item>
+        <item>器材讨论区</item>
+        <item>论坛服务区</item>
+    </string-array>
+    <string-array name="bbsListR0">
+        <item>热帖</item>
+        <item>精华帖</item>
+        <item>最新帖子</item>
+        <item>最新回复</item>
+    </string-array>
+    <string-array name="bbsListR1">
+        <item>人像</item>
+        <item>风光</item>
+        <item>纪实</item>
+        <item>人体</item>
+        <item>儿童</item>
+        <item>人体</item>
+        <item>建筑</item>
+        <item>生态</item>
+        <item>宠物</item>
+    </string-array>
+    <string-array name="bbsListR2">
+        <item>商业</item>
+        <item>女性视觉</item>
+        <item>新手</item>
+        <item>数码</item>
+        <item>黑白</item>
+        <item>实验</item>
+        <item>生活摄影</item>
+        <item>高校</item>
+        <item>手机</item>
+        <item>葡萄酒</item>
+    </string-array>
+    <string-array name="bbsListR3">
+        <item>交易警示</item>
+        <item>二手交易</item>
+        <item>器材维修</item>
+    </string-array>
+    <string-array name="bbsListR4">
+        <item>北京</item>
+        <item>上海</item>
+        <item>武汉</item>
+    </string-array>
+    <string-array name="bbsListR5">
+        <item>单反和镜头</item>
+        <item>大中画幅</item>
+        <item>便携数码</item>
+    </string-array>
+    <string-array name="bbsListR6">
+        <item>活动区</item>
+        <item>网友服务</item>
+        <item>蜂鸟茶馆</item>
+    </string-array>
+    <string-array name="news_class">
+        <item>精选</item>
+        <item>器材</item>
+        <item>影像</item>
+        <item>学院</item>
+        <item>旅游</item>
+        <item>汽车</item>
+        <item>手机</item>
+    </string-array>
+    <color name="bg_app">#fff3f3f3</color>
+    <color name="set_press">#E8E8E8</color>
+    <color name="set_unfocus">#fdfdfd</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="about_title">关于蜂鸟</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_downloading">应用正在后台下载</string>
+    <string name="app_name">我的乐拍</string>
+    <string name="cancel">取消</string>
+    <string name="colect_title">个人收藏</string>
+    <string name="comments_title">评 论</string>
+    <string name="douban">豆瓣</string>
+    <string name="download_faield">下载失败</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="failed_to_start_incentive_page">无法打开“分享有奖页面”</string>
+    <string name="fengguang">风光</string>
+    <string name="finish">完成</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="get_token_format">获取%s的AccessToken</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="incentive_title">分享有奖</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="kaixin">开心网</string>
+    <string name="linkedin">Linked In</string>
+    <string name="list_friends">%s的朋友</string>
+    <string name="login_title">登陆蜂鸟</string>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="multi_share">图文分享</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="pinming">拼命加载中...</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="register_title">注册</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="renren">人人网</string>
+    <string name="renxiang">人像</string>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_to">分享到</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="shengtai">生态</string>
+    <string name="shortmessage">信息</string>
+    <string name="shuma">数码</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="time_error">时间有问题</string>
+    <string name="title_activity_bbs">BbsActivity</string>
+    <string name="title_activity_fg_web">FgWebActivity</string>
+    <string name="title_activity_jingxuan">JingxuanActivity</string>
+    <string name="title_activity_jx_web">JxWebActivity</string>
+    <string name="title_activity_qc_web">QcWebActivity</string>
+    <string name="title_activity_set7">Set7Activity</string>
+    <string name="title_activity_setregis">SetregisActivity</string>
+    <string name="title_activity_vptop">VptopActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_welcome">title_activity_welcome</string>
+    <string name="title_activity_wlecome">WLecomeActivity</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        
+    </style>
+    <style name="Theme.splash" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

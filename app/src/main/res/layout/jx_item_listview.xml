@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+	 <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+        <com.example.pull.RefreshableView 
+            android:id="@+id/pullLayout"
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent">
+	      
+        <ListView
+            android:id="@+id/jx_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            />
+	      
+	  </com.example.pull.RefreshableView>
+    	<LinearLayout 
+    	    android:id="@+id/layout_app_loading"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center_vertical|center_horizontal"
+    	    android:orientation="vertical"
+    	    android:visibility="invisible">
+    	    <ProgressBar 
+				android:layout_width="40dip"
+				android:layout_height="40dip"
+				/>
+    	    <!-- <TextView 
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text="正在加载资讯信息..."/> -->
+    	</LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

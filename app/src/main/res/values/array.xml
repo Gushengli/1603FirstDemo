@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+   <string-array name="news_class">
+        <item>精选</item>
+        <item>器材</item>
+        <item>影像</item>
+        <item>学院</item>
+        <item>旅游</item>
+        <item>汽车</item>
+        <item>手机</item>
+    </string-array>
+    <string-array name="bbsListL">
+        <item >全部论坛</item>
+        <item >题材作品区</item>
+        <item >全部摄影区</item>
+        <item >二手交易区</item>
+        <item >全国分站区</item>
+        <item >器材讨论区</item>
+        <item >论坛服务区</item>
+    </string-array>
+    
+    <string-array name="bbsListR0">
+        <item >热帖</item>
+        <item >精华帖</item>
+        <item >最新帖子</item>
+        <item >最新回复</item>
+    </string-array>
+    
+    <string-array name="bbsListR1">
+        <item >人像</item>
+        <item >风光</item>
+        <item >纪实</item>
+        <item >人体</item>
+        <item >儿童</item>
+        <item >人体</item>
+        <item >建筑</item>
+        <item >生态</item>
+        <item >宠物</item>
+    </string-array>
+    
+    <string-array name="bbsListR2">
+        <item >商业</item>
+        <item >女性视觉</item>
+        <item >新手</item>
+        <item >数码</item>
+        <item >黑白</item>
+        <item >实验</item>
+        <item >生活摄影</item>
+        <item >高校</item>
+        <item >手机</item>
+        <item >葡萄酒</item>
+    </string-array>
+    
+    <string-array name="bbsListR3">
+        <item >交易警示</item>
+        <item >二手交易</item>
+        <item >器材维修</item>
+    </string-array>
+    
+    <string-array name="bbsListR4">
+        <item >北京</item>
+        <item >上海</item>
+        <item >武汉</item>
+    </string-array>
+    
+    <string-array name="bbsListR5">
+        <item >单反和镜头</item>
+        <item >大中画幅</item>
+        <item >便携数码</item>
+    </string-array>
+    
+    <string-array name="bbsListR6">
+        <item >活动区</item>
+        <item >网友服务</item>
+        <item >蜂鸟茶馆</item>
+    </string-array>
+    
+    
+
+</resources>

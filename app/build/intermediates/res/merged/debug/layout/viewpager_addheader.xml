@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="80dp" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpshow_headgu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_alignBottom="@id/vpshow_headgu"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:background="#30000000"
+       >
+
+        <TextView
+            android:id="@+id/tv_vpshow_gu"
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:gravity="center"
+            android:textColor="#E7F1FB"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_vpshow_gu"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:gravity="right"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

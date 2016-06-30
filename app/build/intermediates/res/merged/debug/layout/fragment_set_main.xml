@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_app"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/setting_reg_login"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/set_icon_account"
+                    android:drawablePadding="7.0dip"
+                    android:text="注册/登录蜂鸟"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_weight="0.0"
+                    android:textColor="#ffcccccc" 
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:src="@drawable/set_item_arrow" />
+            </LinearLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="1.0dip"
+			    android:background="@drawable/set_bg_item_normal"
+			    />
+            <LinearLayout
+                android:id="@+id/setting_shareManager"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/set_icon_weibo"
+                    android:drawablePadding="7.0dip"
+                    android:text="分享账号管理"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:src="@drawable/set_item_arrow" />
+            </LinearLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@drawable/set_bg_item_normal"
+			    />
+            <LinearLayout
+                android:id="@+id/setting_bbs"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:layout_marginTop="12.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/bbs_icon_1"
+                    android:drawablePadding="7.0dip"
+                    android:text="我的论坛"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:src="@drawable/set_item_arrow" />
+            </LinearLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@drawable/set_bg_item_normal"
+			    />
+            <LinearLayout
+                android:id="@+id/setting_collection"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/set_icon_favorite"
+                    android:drawablePadding="7.0dip"
+                    android:text="个人收藏"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:src="@drawable/set_item_arrow" />
+            </LinearLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@drawable/set_bg_item_normal"
+			    />
+            <LinearLayout
+                android:id="@+id/setting_clearCache"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:layout_marginTop="12.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/set_icon_clear_cache"
+                    android:drawablePadding="7.0dip"
+                    android:text="清除应用缓存"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@+id/tv_cacheSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_weight="0.0"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:src="@drawable/set_item_arrow" />
+            </LinearLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@drawable/set_bg_item_normal"
+			    />
+            <LinearLayout
+                android:id="@+id/setting_autoImg"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/set_icon_auto_image"
+                    android:drawablePadding="7.0dip"
+                    android:text="自动加载图片"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <CheckBox
+                    android:id="@+id/set_autoImage"
+                    android:layout_width="50.0dip"
+                    android:layout_height="21.0dip"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.0"
+                    android:background="@null"
+                    android:button="@drawable/set_switch"
+                    android:duplicateParentState="true" />
+            </LinearLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@drawable/set_bg_item_normal"
+			    />
+            <LinearLayout
+                android:id="@+id/setting_feedback"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:layout_marginTop="12.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/set_icon_feedback"
+                    android:drawablePadding="7.0dip"
+                    android:text="建议反馈"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:src="@drawable/set_item_arrow" />
+            </LinearLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@drawable/set_bg_item_normal"
+			    />
+            <LinearLayout
+                android:id="@+id/setting_about"
+                android:layout_width="fill_parent"
+                android:layout_height="52.0dip"
+                android:background="@drawable/fragment_set_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12.0dip"
+                android:paddingRight="12.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/set_icon_about"
+                    android:drawablePadding="7.0dip"
+                    android:text="关于我们"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:src="@drawable/set_item_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

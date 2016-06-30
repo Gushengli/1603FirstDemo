@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingTop="10.0dip" >
+
+    <include
+        android:id="@+id/item580280"
+        layout="@layout/news_item_580280"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingRight="5.0dip" >
+			
+            <include
+                android:id="@+id/item280280_0"
+                layout="@layout/news_item_280280" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="5.0dip" >
+
+            <include
+                android:id="@+id/item280280_1"
+                layout="@layout/news_item_280280" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip" >
+
+        <include
+            android:id="@+id/item160120_0"
+            layout="@layout/news_item_160120" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip" >
+
+        <include
+            android:id="@+id/item160120_1"
+            layout="@layout/news_item_160120" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip" >
+
+        <include
+            android:id="@+id/item160120_2"
+            layout="@layout/news_item_160120" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip" >
+
+        <include
+            android:id="@+id/item160120_3"
+            layout="@layout/news_item_160120" />
+    </FrameLayout>
+
+</LinearLayout>

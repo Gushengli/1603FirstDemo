@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我的乐拍</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="colect_title">个人收藏</string>
+    <string name="login_title">登陆蜂鸟</string>
+    <string name="register_title">注册</string>
+    <string name="about_title">关于蜂鸟</string>
+    <string name="get_token_format">获取%s的AccessToken</string>
+    <string name="comments_title">评 论</string>
+    <string name="title_activity_wlecome">WLecomeActivity</string>
+    <string name="title_activity_welcome">title_activity_welcome</string>
+    <string name="title_activity_jingxuan">JingxuanActivity</string>
+    <string name="renxiang">人像</string>
+    <string name="fengguang">风光</string>
+    <string name="shengtai">生态</string>
+    <string name="shuma">数码</string>
+    <string name="pinming">拼命加载中...</string>
+    <string name="title_activity_bbs">BbsActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_fg_web">FgWebActivity</string>
+    <string name="title_activity_setregis">SetregisActivity</string>
+    <string name="title_activity_set7">Set7Activity</string>
+    <string name="title_activity_qc_web">QcWebActivity</string>
+    <string name="title_activity_jx_web">JxWebActivity</string>
+    <string name="title_activity_vptop">VptopActivity</string>
+
+</resources>

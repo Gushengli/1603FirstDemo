@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_contents_fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_off"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#000" />
+
+        <ImageView
+            android:id="@+id/iv_off"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFF"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/mainRadioTabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4.5dip"
+        android:layout_weight="0.0"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/mainRadio_news"
+            android:layout_width="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab1_news"
+            android:button="@null"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/mainRadio_pic"
+            android:layout_width="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab2_pic"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/mainRadio_bbs"
+            android:layout_width="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab3_bbs"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/mainRadio_set"
+            android:layout_width="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab4_set"
+            android:button="@null" />
+    </RadioGroup>
+
+</LinearLayout>
